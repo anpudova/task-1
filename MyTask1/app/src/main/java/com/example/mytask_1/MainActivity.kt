@@ -11,7 +11,6 @@ import java.lang.Double
 
 class MainActivity : Activity() {
 
-    @SuppressLint("UseValueOf")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
